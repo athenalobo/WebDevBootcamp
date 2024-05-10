@@ -1,13 +1,23 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #f5f0e6;
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #070707;
+}
+
+footer {
+font-family: "Sacramento", cursive;
 }
 
 .container {
@@ -22,29 +32,29 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid white;
   border-radius: 20%;
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(243, 97, 97);
   opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+  background-color: #FFADAD;
 }
 
 .green {
-  background-color: green;
+  background-color: #b6e3d9;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #d5d0f6;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #FDFFB6;
 }
 
 .pressed {
